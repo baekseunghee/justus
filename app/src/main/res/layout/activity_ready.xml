@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:background="@drawable/back_general"
+    >
+    <TextView
+        android:id="@+id/tv_ready_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:layout_marginBottom="20dip"
+        />
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="3dip"
+        android:background="@drawable/shape_login_btn"
+        android:onClick="mOnClick"
+        />
+    <Button
+        android:id="@+id/btn_change_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHANGE NAME"
+        android:textSize="25sp"
+        android:layout_marginBottom="3dip"
+        android:background="@drawable/shape_change_name"
+        android:onClick="mOnClick"
+        />
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape_exit_btn"
+        android:onClick="mOnClick"
+        />
+
+</LinearLayout>

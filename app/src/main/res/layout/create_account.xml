@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/create_account_layout"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/create_id"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:hint="아이디"
+            />
+        <EditText
+            android:id="@+id/create_pw"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호"
+            />
+        <EditText
+            android:id="@+id/create_uname"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:hint="이름"
+            />
+        <EditText
+            android:id="@+id/create_age"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:hint="나이"
+            android:inputType="number"
+            />
+        <Button
+            android:id="@+id/create_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가입하기"
+            />
+    </LinearLayout>
+
+</LinearLayout>
